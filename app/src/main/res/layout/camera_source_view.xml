@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="60dp"
+              android:layout_alignLeft="@id/renderer_view"
+              android:layout_alignBottom="@id/renderer_view"
+              android:orientation="horizontal"
+              android:padding="8dp">
+    <ImageView
+        android:id="@+id/drops_button"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/drops"
+        android:padding="4dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"/>
+
+    <ImageView
+        android:id="@+id/roots_button"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/roots"
+        android:padding="4dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"/>
+</LinearLayout>
